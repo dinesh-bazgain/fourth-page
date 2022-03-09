@@ -1,0 +1,72 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+.first-content{
+    background-color: black;
+    color: blanchedalmond;
+    height: 5vh;
+    font-size: 10px;
+}
+.left{
+    float: left;
+}
+.left img{
+    height: 25px;
+    padding: 3px 1px;
+}
+.right{
+    float: right;
+}
+.left p{
+    float: right;
+    padding-top: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.right ul{
+    padding: 10px;
+}
+.right ul li a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+li:hover{
+    background-color: crimson;
+    padding: 5px;
+}
+.second-content{
+    background-image: url("back.jpg");
+    height: 95vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+h1{
+    font-size: 90px;
+    padding: 10%;
+    color: whitesmoke;
+    background: url(text.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.second-content p{
+    font-size: 30px;
+    color: black;
+}
+button:hover{
+    color: blanchedalmond; 
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    margin-top: 50px;
+    background-color: rgb(247, 11, 90);
+    font-size: 20px;
+    width: 30vh;
+}
