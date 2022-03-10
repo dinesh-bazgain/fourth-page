@@ -5,7 +5,7 @@
 .first-content{
     background-color: black;
     color: blanchedalmond;
-    height: 5vh;
+    height: 2rem;
     font-size: 10px;
 }
 .left{
@@ -70,3 +70,24 @@ button{
     font-size: 20px;
     width: 30vh;
 }
+
+@media screen and (max-width: 600px) {
+    .right{
+        display: grid;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
